@@ -12,10 +12,10 @@ int main(void)
 	fp = &f;
 	dp = &d;
 
-	/*Printing the current values*/
+	/*Printing the current address values*/
 	printf("%p %p %p %p ", cp, ip, fp, dp);
 
-	/*Incrementing by 1*/
+	/*This increments the adress by 1 byte*/
 	cp++;
 	ip++;
 	fp++;
