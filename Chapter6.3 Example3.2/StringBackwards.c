@@ -7,7 +7,7 @@ int main(void)
 	char str2[11], *p1, *p2;
 
 	/*p is pointing to the end of str*/
-	p1 = str1 + strlen(str1)-1;
+	p1 = str1 + strlen(str1) - 1;
 	
 	p2 = str2;
 	while (p1 >= str1) {
